@@ -42,10 +42,12 @@ function App() {
 
     return (
         <div>
-            <h1>21BCE5199</h1>
+            <h2>Hii!, I am Vedhit Suresh Katekhaye, and here is my submition for the bajaj API challenge.</h2>
+            <br></br>
+            <h3>21BCE5199</h3>
             <form onSubmit={handleSubmit}>
                 <label>
-                    JSON Input:
+                    Write here JSON Input to test API connection:
                     <textarea
                         value={jsonInput}
                         onChange={(e) => setJsonInput(e.target.value)}
